@@ -14,7 +14,7 @@
     </div>
     <div>Message list</div>
     <form method="get" action="/main">
-        <input type="text" name="filter" value="${filter!""}"/>
+        <input type="text" name="filter" value="${filter}"/>
         <button type="submit">Find</button>
     </form>
 

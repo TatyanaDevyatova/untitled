@@ -27,7 +27,7 @@ public class Message {
     }
 
     public String getAuthorName() {
-        return author != null ? author.getUsername() : "none";
+        return author != null ? author.getUsername() : "<none>";
     }
 
     public User getAuthor() {
@@ -52,5 +52,13 @@ public class Message {
 
     public void setTag(String tag) {
         this.tag = tag;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
     }
 }

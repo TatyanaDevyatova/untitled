@@ -1,4 +1,4 @@
-package org.example.untitled.config;
+package org.example.untitled.configuration;
 
 import org.example.untitled.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

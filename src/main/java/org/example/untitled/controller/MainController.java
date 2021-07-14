@@ -18,10 +18,9 @@ public class MainController {
     @Autowired
     private MessageRepo messageRepo;
 
-
     @GetMapping("/")
     public String greeting(Map<String, Object> model) {
-        return "greeting.ftl";
+        return "greeting";
     }
 
     @GetMapping("/main")
@@ -37,6 +36,7 @@ public class MainController {
 
         model.addAttribute("messages", messages);
         model.addAttribute("filter", filter);
+
         return "main";
     }
 
