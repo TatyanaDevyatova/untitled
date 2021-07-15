@@ -1,6 +1,8 @@
 <#import "parts/common.ftlh" as c>
 <@c.page>
-    <div>Hello, user</div>
-    <a href="/main">Main page</a>
+    <h5>Hello, quest!</h5>
+    <div>
+        This is a simple clone of Sweater
+    </div>
 </@c.page>
 
