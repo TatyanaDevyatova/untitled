@@ -27,6 +27,8 @@
             </#if>
         </ul>
         <div class="navbar-text mr-3">${name}</div>
-        <@l.logout />
+        <#if user??>
+            <@l.logout />
+        </#if>
     </div>
 </nav>
