@@ -9,6 +9,7 @@
             <th></th>
         </tr>
         </thead>
+
         <tbody>
         <#list users as user>
             <tr>

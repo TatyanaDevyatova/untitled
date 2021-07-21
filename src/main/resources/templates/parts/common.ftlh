@@ -1,6 +1,7 @@
 <#macro page>
     <!DOCTYPE html>
     <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <title>untitled</title>
@@ -13,11 +14,14 @@
               crossorigin="anonymous">
         <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
+
     <body>
     <#include "navbar.ftlh">
-    <div class="container mt-5" >
+
+    <div class="container mt-5">
         <#nested>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
