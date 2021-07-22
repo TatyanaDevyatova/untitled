@@ -25,7 +25,8 @@
                 <#list body as p>
                     <#if (p - 1) == page.getNumber()>
                         <li class="page-item active">
-                            <a class="page-link" href="#" tabindex="-1">${p}</a>
+                            <a style="background-color: #28a745; border-color: #28a745"
+                               class="page-link" href="#" tabindex="-1">${p}</a>
                         </li>
                     <#elseif p == - 1>
                         <li class="page-item disabled">
@@ -33,7 +34,8 @@
                         </li>
                     <#else>
                         <li class="page-item">
-                            <a class="page-link" href="${url}?page=${p - 1}&size=${page.getSize()}"
+                            <a style="color: #28a745"  class="page-link"
+                               href="${url}?page=${p - 1}&size=${page.getSize()}"
                                tabindex="-1">${p}</a>
                         </li>
                     </#if>
@@ -48,11 +50,13 @@
                 <#list [5, 10, 25, 50] as c>
                     <#if c == page.getSize()>
                         <li class="page-item active">
-                            <a class="page-link" href="#" tabindex="-1">${c}</a>
+                            <a style="background-color: #28a745; border-color: #28a745"
+                               class="page-link" href="#" tabindex="-1">${c}</a>
                         </li>
                     <#else>
                         <li class="page-item">
-                            <a class="page-link" href="${url}?page=${page.getNumber()}&size=${c}"
+                            <a style="color: #28a745" class="page-link"
+                               href="${url}?page=${page.getNumber()}&size=${c}"
                                tabindex="-1">${c}</a>
                         </li>
                     </#if>

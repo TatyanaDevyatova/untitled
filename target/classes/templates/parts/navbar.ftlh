@@ -49,7 +49,7 @@
         <#if user??>
             <@l.logout />
         <#else>
-            <a class="btn btn-primary" href="/login" role="button">Log in</a>
+            <a class="btn btn-success" href="/login" role="button">Log in</a>
         </#if>
     </div>
 </nav>
