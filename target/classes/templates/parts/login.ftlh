@@ -71,7 +71,7 @@
         <input type="hidden" name="_csrf" value="${_csrf.token}"/>
 
         <#if !isRegisterForm>
-            <a href="/registration">Add new user</a>
+            <a style="color: #28a745" href="/registration">Add new user</a>
         </#if>
 
         <button class="btn btn-success" type="submit">
